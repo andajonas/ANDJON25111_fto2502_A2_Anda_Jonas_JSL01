@@ -132,10 +132,10 @@ body {
   
   .card {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: 600; 
+    font-weight: 500; /* lighter weight */
     font-size: 15px;
     line-height: 1;
-    padding: 1rem; 
+    padding: 1rem; /* Default for desktop */
     background-color: white;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(54, 78, 126, 0.1);
@@ -175,8 +175,7 @@ body {
     }
   
     .card {
-        padding: 0.75rem; 
-        font-size: 14px; 
-        border-radius: 10px; 
+        padding: 0.75rem; /* less padding = shorter cards */
+        font-size: 14px; /* slightly smaller text */
+        border-radius: 10px; /* rounder corners on mobile */
     }
-}
