@@ -24,6 +24,7 @@ body {
     height: 40px; 
     margin-bottom: 2rem; 
   }
+ 
   
   .board-list h4 {
     font-size: 0.8rem;
@@ -31,10 +32,8 @@ body {
     color: #888;
     margin: 2rem 0 0.5rem;
   }
-
   .board-btn {
-    background-color: #635FC7; 
-    color: white !important;     
+    background-color: #635FC7;      
     border: none;
     padding: 0.75rem 1rem;
     font-weight: 600;
@@ -55,6 +54,13 @@ body {
   .main-board {
     padding: 2rem;
     overflow-x: auto;
+  }
+  
+  .divider {
+    height: 1px;
+    background-color: #bdbdbd; /* Darker grey */
+    margin-top: 1rem;
+    width: 100%;               /* Make sure it stretches across */
   }
   
   .board-title {
