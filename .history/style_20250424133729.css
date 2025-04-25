@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap');
 /* Base Styles */
 body {
     margin: 0;
-    font-family: "inter" sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: #f5f6fa;
     color: #1f1f1f;
   }
@@ -80,8 +79,8 @@ body {
   }
   
   .dot {
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
   }
   
@@ -105,17 +104,6 @@ body {
   }
   
   .card {
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      font-weight: 700;
-      font-size: 15px;
-      line-height: 1;
-      padding: 1rem;
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: 0px 4px 6px rgba(54, 78, 126, 0.1);
-      margin-bottom: 1rem;
-      width: 100%; 
-      max-width: 301px; 
-    }
   
+  }
   
